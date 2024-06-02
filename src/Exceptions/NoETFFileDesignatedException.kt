@@ -1,4 +1,6 @@
 package Exceptions
 
-class NoETFFileDesignatedException {
+class NoETFFileDesignatedException : Exception(){
+    override val message: String?
+        get() = "No ETF.ETF file designated"
 }
