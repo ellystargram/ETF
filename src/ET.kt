@@ -133,11 +133,14 @@ fun main() {
 
 
     do {
+        print("command: ")
         val userInput: String = readln().toLowerCase()
         if (userInput == "exit") {
             break
         } else if (userInput == "go") {
             test20(SentenceTestUnit)
+        } else if (userInput == "prac"){
+           prac(SentenceTestUnit)
         }
 
     } while (true)
@@ -174,7 +177,7 @@ fun test20(SentenceTestUnit: SentenceTestUnit) {
 
         preWork = preWork.lowercase()
 
-        val mixEnglishWord:List<String> = preWork.split(" ").shuffled()
+        val mixEnglishWord: List<String> = preWork.split(" ").shuffled()
         val mixEnglishSentence = mixEnglishWord.joinToString(" / ")
         println("English: $mixEnglishSentence")
         println()
@@ -196,4 +199,20 @@ fun test20(SentenceTestUnit: SentenceTestUnit) {
         println("English: ${sentence.englishAnswer}")
         println()
     }
+
+
+}
+
+fun prac(sentenceTestUnit: SentenceTestUnit){
+    var quizNumber = 1
+    for (sentence in sentenceTestUnit.sentences){
+        println("Quiz $quizNumber")
+        println("Korean: ${sentence.koreanAnswer}")
+        println("English: ${sentence.englishAnswer}")
+        println()
+        var userAnswer = readln()
+        quizNumber++
+    }
+
+    println("finished")
 }
