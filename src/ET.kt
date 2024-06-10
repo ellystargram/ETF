@@ -10,7 +10,7 @@ fun main() {
     SentenceTestUnit.sentences.add(
         Sentence(
             "어렸을 때, 가족과 장거리 자동차 여행을 가는 것보다 내가 더 좋아했던 것은 없었다.",
-            "When I was a child, there was nothing I loved more than going on long car journeys with my family."
+            "When I was a child, there was nothing that I loved more than going on long car journeys with my family."
         )
     )
     SentenceTestUnit.sentences.add(
@@ -28,13 +28,13 @@ fun main() {
     SentenceTestUnit.sentences.add(
         Sentence(
             "게다가, 자전거를 이용하면, 대중교통의 제한적인 노선과 일정뿐만 아니라 교통 체증으로부터 자유로워 질 수 있다.",
-            "In addition, if I use my bike, I can be free from traffic jams as well as public transit's restricted routes and schedules."
+            "In addition, if I use my bike, I can be free from traffic jams as well as public transit's restrictive routes and schedules."
         )
     )
     SentenceTestUnit.sentences.add(
         Sentence(
             "아름다운 강변의 자전거 길이나 관심을 끄는 매력적인 동네를 만나면, 그 기회를 잡는다.",
-            "If I come upon a beautiful riverside bike path or a charming neighborhood that intrigues me, seize the opportunity."
+            "If I come upon a beautiful riverside bike path or a charming neighborhood that intrigues me, I seize the opportunity."
         )
     )
     SentenceTestUnit.sentences.add(
@@ -124,7 +124,7 @@ fun main() {
     SentenceTestUnit.sentences.add(
         Sentence(
             "부모들이 아이들에게 양치질을 시키는 것이 쉽지 않습니다.",
-            "It's not easy for parents to get their to brush their teeth."
+            "It's not easy for parents to get their kids to brush their teeth."
         )
     )
 
