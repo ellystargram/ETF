@@ -3,7 +3,7 @@ package ETF
 class SentenceTestUnit {
     var testName:String = ""
     var sentences = mutableListOf<Sentence>()
-
+    var enableEnglishWordHint:Boolean = true
 }
 
 class Sentence {

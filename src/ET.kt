@@ -128,19 +128,197 @@ fun main() {
         )
     )
 
+    val SentenceTestUnit2 = SentenceTestUnit()
+    SentenceTestUnit2.testName = "Sentence Test Unit 2"
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "그는 음식과 쉴 곳을 구걸하면서 결국 몇 달 동안 길거리에서 노숙하게 되었다.",
+            "He ended up living on the streets for a few months as he begged for food and shelter."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "그는 그의 새로운 집에 정착했고, Brierley라는 새로운 성(ME)을 받았다.",
+            "He settled down in his new home and was given a new last name, Brierley."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "그는 인도 지도를 볼 대마다, 저 모든 도시와 마을 사이, 어딘가가 그가 태어났던 장소라 생각하곤 했다.",
+            "Every time he looked at a map of India, he would think that somewhere, among all of those cities and towns, was the place where he had been born."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "이러한 기술을 가지고 탐험하는 것은 마치 지구 위를 나는 것과 같았다.",
+            "Exploring with these technologies was like flying over the earth."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "그가 기차에 있었던 시간과 그것의 예상되는 속력을 이용해, 그는 Howrah까지 대략 960km를 이동했음이 틀림없다는 것을 알아냈다.",
+            "Using the time that he had been on the train and its likely speed, he figured out that he must have traveled about 960 kilometers to Howrah."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "멀리 떠나 대학에서 생활하는 그녀는 누구에게도 보고하지 않고 원할 때마다 외출하는 데 익숙합니다.",
+            "Living away at college, she is accustomed to going out whenever she pleases, without having to report to anyone."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "단기간일 것이라고 확신한 남편과 나는 Carol이 새 일자리를 찾는 동안 무료로 우리와 함께 머물 수 있다는 것에 동의했습니다.",
+            "Being certain that it would be short-term, my husband and I agreed that Carol could stay with us, free of charge, while she searched for a new job."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "당신이 원하는 직업을 찾는 것은 많은 시간과 노력이 필요합니다.",
+            "Finding the job you want takes lots of time and effort."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "하루에 한 시간을 더 추가하는 것은, 특히 당신이 업무 이외의 다른 일을 하는 데 그것 을 사용하는 경우, 스트레스를 완화하는 효과적인 방법입니다.",
+            "Adding an extra hour to the day, especially if you use it to do something other than work, is an effective way to relieve stress."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "우리가 그들과 우리는 분리될 수 없다는 것을 알게 되는 것은 바로 그들이 사라지고 우 리가 그들을 결코 볼 수 없을 때 뿐입니다.",
+            "It is only when they are gone and we never see them that we find that they and we are indivisible."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "좋은 배우를 드러내는 것은 바로 그들이 말을 하고 있지 않을 때 우리에게 보여줄 수 있 는 것입니다.",
+            "It is what they can show us when they are not talking that reveals the fine actor."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "여행객들은 도시의 거리 전역에 고동치는 탱고의 활기찬 리듬을 느낄 수 있다.",
+            "Travelers can feel the vigorous rhythm of the tango pulsing throughout the city's streets."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "소규모 기업은 일반적으로 대규모 다국적 기업과 경쟁하는 데 어려움을 겪습니다.",
+            "Small companies typically have difficulty competing against large multinationals."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "나이가 들면서, 그는 온라인 지도와 위성 사진을 이용하면서 오랫동안 보지 못한 자신 의 집을 찾기 시작했다.",
+            "As he grew older, he started to search for his long-lost home using online maps and satellite imagery."
+        )
+    )
+    SentenceTestUnit2.sentences.add(
+        Sentence(
+            "Paul은 자신의 인기가 자신의 재능을 개발하고 사람들의 요구 사항을 이해하는 데 더 많은 시간을 보냈기 때문이라고 생각했습니다.",
+            "Paul attributed his popularity to spending more time developing his own talents and understanding the needs of the people."
+        )
+    )
+
+    val SentenceTestUnit3 = SentenceTestUnit()
+    SentenceTestUnit3.testName = "Sentence Test Unit 3"
+    SentenceTestUnit3.enableEnglishWordHint = false
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "하루 휴가를 내려구요.",
+            "I'm taking a day off."
+        )
+    )
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "보고서를 엑셀 형식으로 제출해야 합니다.",
+            "You are supposed to submit a report in Excel format."
+        )
+    )
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "Mr. Evans와 약속이 있어요.",
+            "I have an appointment with Mr. Evans."
+        )
+    )
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "당신 이름이 적힌 검정색 표지판을 들고 있겠습니다.",
+            "I'll have a black sign with your name on it."
+        )
+    )
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "연락처 좀 알려주시겠어요?",
+            "How can I reach you?"
+        )
+    )
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "지금 아니면 안돼.",
+            "It's now or never."
+        )
+    )
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "바르게 행동해.",
+            "Behave yourself."
+        )
+    )
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "우린 이 고비를 넘길 거야.",
+            "We'll get through this."
+        )
+    )
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "그거 끝냈나요?",
+            "Did you get it done?"
+        )
+    )
+    SentenceTestUnit3.sentences.add(
+        Sentence(
+            "드릴 말씀이 있어요.",
+            "I have something to tell you."
+        )
+    )
+
     println("ET is ready")
-    println(SentenceTestUnit.sentences.size)
 
 
     do {
         print("command: ")
-        val userInput: String = readln().toLowerCase()
-        if (userInput == "exit") {
+        val userInput: String = readln()
+        if (userInput.lowercase() == "exit") {
             break
-        } else if (userInput == "go") {
-            test20(SentenceTestUnit)
-        } else if (userInput == "prac"){
-           prac(SentenceTestUnit)
+        } else if (userInput.lowercase().startsWith("go")) {
+            val testFileName = userInput.split(" ")[1].strip()
+            when (testFileName) {
+                "STU1" -> {
+                    test(SentenceTestUnit)
+                }
+                "STU2" -> {
+                    test(SentenceTestUnit2)
+                }
+                "STU3" -> {
+                    test(SentenceTestUnit3)
+                }
+            }
+        } else if (userInput.lowercase().startsWith("prac")){
+            val pracFileName = userInput.split(" ")[1].strip()
+            when (pracFileName) {
+                "STU1" -> {
+                    prac(SentenceTestUnit)
+                }
+                "STU2" -> {
+                    prac(SentenceTestUnit2)
+                }
+                "STU3" -> {
+                    prac(SentenceTestUnit3)
+                }
+            }
         }
 
     } while (true)
@@ -152,13 +330,13 @@ class ET {
 }
 
 
-fun test20(SentenceTestUnit: SentenceTestUnit) {
+fun test(SentenceTestUnit: SentenceTestUnit) {
     // pick random 20 sentences but don't repeat
     val randomSentences = mutableListOf<Sentence>()
     var quizNumber = 1
 
     val incorrectedSentences = mutableListOf<Sentence>()
-    while (randomSentences.size < 20) {
+    while (randomSentences.size < SentenceTestUnit.sentences.size) {
         val randomSentence = SentenceTestUnit.sentences.random()
         if (randomSentences.contains(randomSentence)) {
             continue
@@ -168,24 +346,28 @@ fun test20(SentenceTestUnit: SentenceTestUnit) {
         println("Quiz $quizNumber")
         println("Korean: ${randomSentence.koreanAnswer}")
 
-        var preWork = randomSentence.englishAnswer.replace(".", "")
-        preWork = preWork.replace(",", "")
-        preWork = preWork.replace(";", "")
-        preWork = preWork.replace(":", "")
-        preWork = preWork.replace("!", "")
-        preWork = preWork.replace("?", "")
+        if (SentenceTestUnit.enableEnglishWordHint) {
+            var preWork = randomSentence.englishAnswer.replace(".", "")
+            preWork = preWork.replace(",", "")
+            preWork = preWork.replace(";", "")
+            preWork = preWork.replace(":", "")
+            preWork = preWork.replace("!", "")
+            preWork = preWork.replace("?", "")
 
-        preWork = preWork.lowercase()
+            preWork = preWork.lowercase()
 
-        val mixEnglishWord: List<String> = preWork.split(" ").shuffled()
-        val mixEnglishSentence = mixEnglishWord.joinToString(" / ")
-        println("English: $mixEnglishSentence")
+            val mixEnglishWord: List<String> = preWork.split(" ").shuffled()
+            val mixEnglishSentence = mixEnglishWord.joinToString(" / ")
+            println("English: $mixEnglishSentence")
+        }
         println()
         quizNumber++
         print("Answer: ")
         val userAnswer = readln()
         if (userAnswer == randomSentence.englishAnswer) {
             println("Correct!")
+        } else if (userAnswer == "exit"){
+            return
         } else {
             println("Incorrect!")
             println("Correct Answer: ${randomSentence.englishAnswer}")
